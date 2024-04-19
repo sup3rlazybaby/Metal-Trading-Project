@@ -151,10 +151,15 @@ async def concurrent_reads():
 
 # Main function to run concurrent reads
 async def main_read():
-    results = await concurrent_reads()
-    # Process results as needed
+    results = await concurrent_reads()    
+    # pp.pprint(results)
+    # Process results as needed    
     for idx, data in enumerate(results):
-        print(f"Results for query {idx}: {data}")
+        # pp.pprint(rows)
+        print(f"Results for query id = {idx}:")
+        for row in data:
+            print(f"ID: {row[0].id}, Metal: {row[0].metal}, Date: {row[0].date}, Price: {row[0].price}, MACD: {row[0].macd}, MACD_signal: {row[0].macd_signal}, RSI: {row[0].rsi}")            
+            print()
 
 # Run the main function using asyncio.run()
 asyncio.run(main_read())

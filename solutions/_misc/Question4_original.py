@@ -105,7 +105,7 @@ async def populate_sql_table(df, metals):
         await session.commit()
         
     # Close and clean-up pooled connections.
-    await engine.dispose()
+    # await engine.dispose()
 
 # Run the async processing function
 async def main_write():

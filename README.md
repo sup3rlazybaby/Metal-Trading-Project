@@ -4,6 +4,8 @@
 
 This project aims to demonstrate proficiency with python, SQL for data science project. The tasks involve data cleaning, managing data in SQL server, controlling the interaction with SQL server via asynchronous operation to perform calculations. The example is for calculating MACD and RSI for metal prices. These are important indicators to determine entry and exit strategy when trading.
 
+This demonstration is broken down into multiple tasks to solved, each of which is encapsulated as a question. This problem-solving oriented approach enables better demonsration of the combination of skills necessary to solve each problem.
+
 ## Requirements
 
 - Python 3.11.X
@@ -58,13 +60,3 @@ This project aims to demonstrate proficiency with python, SQL for data science p
 - Take one of your previously written code blocks and refactor it to be more maintainable and modular. Explain your decisions.
 
 
-
-## Submission Guidelines
-
-1. Ensure that all code is clean, well-commented, and accompanied by explanations of your approach and reasoning.
-2. Commit your Jupyter Notebook and any auxiliary files to your forked GitHub repository.
-3. Submit the GitHub repository URL by the deadline.
-
----
-
-Good luck!

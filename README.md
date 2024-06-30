@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This take-home assessment is designed to gauge your proficiency in Python and programming, as these are key aspects of OilDesk Intern role. The assessment consists of 4 questions, each increasing in complexity. Aim to answer as many as you can, and ensure that your code is clean, well-commented, and accompanied by explanations of your approach and reasoning.
+This project aims to demonstrate proficiency with python, SQL for data science project. The tasks involve data cleaning, managing data in SQL server, controlling the interaction with SQL server via asynchronous operation to perform calculations. The example is for calculating MACD and RSI for metal prices. These are important indicators to determine entry and exit strategy when trading.
 
 ## Requirements
 
@@ -10,22 +10,6 @@ This take-home assessment is designed to gauge your proficiency in Python and pr
 - Jupyter Notebook
 - Pandas
 - SQLAlchemy or any other SQL toolkit
-
-## Instructions
-
-1. Fork this repository to your GitHub account.
-2. Clone the forked repository and create a `solutions/` directory.
-3. Answer the questions listed below in a Jupyter Notebook under the `solutions/` directory.
-4. Ensure that all code is clean, well-commented, and accompanied by explanations of your approach and reasoning.
-5. Each question should be answered in a separate Jupyter Notebook.
-6. Any packages you use must be added to the `requirements.txt` file 
-7. Push the completed Notebook back to your GitHub repository.
-8. Share the GitHub link with us by the deadline provided.
-
-## Additional Notes
-
-- You are free to use any Python libraries you wish, the requirements above are purely a suggestion.
-- You may find it useful to create an SQLITE database to store the data for the SQL questions.
 
 ---
 
